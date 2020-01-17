@@ -1,0 +1,38 @@
+.container {
+    width: 306px;
+    height: 100px;
+    object-fit: contain;
+    background-color: white;
+    border: 1px solid #e9eaee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.left-handed-label {
+    float: left;
+    text-transform: uppercase;
+    width: 160px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6b6b6b;
+}
+.left-value-part {
+    float: left;
+    width: 84px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
