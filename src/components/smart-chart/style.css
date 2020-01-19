@@ -63,7 +63,6 @@
     flex-grow: 1;
     float: left;
 }
-
 .icon-up {
 
 }
@@ -76,7 +75,6 @@
     margin-top: 15px;
     color: #a3a3a3;
 }
-
 .position-right-down-label {
     color: #a3a3a3;
     margin-right: 21px;
@@ -88,7 +86,6 @@
     color: #333333;
     margin-right: 35%;
 }
-
 .down-part-right {
     width: auto;
     float: right;

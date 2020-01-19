@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="340">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#!!block;n#About#0" />
@@ -33,8 +33,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="344">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#275#556#0" />
+                <element signature="e#620#628#0" />
+                <element signature="e#574#846#0" />
+                <element signature="e#954#962#0" />
+                <element signature="e#1325#1333#0" />
+                <element signature="e#1345#1353#0" />
+                <element signature="e#1408#1416#0" />
+                <element signature="e#1462#1470#0" />
+                <element signature="e#1635#1643#0" />
+                <element signature="e#1371#1379#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,11 +54,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="281">
+              <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#1094#1503#0" />
+                <element signature="e#698#1413#0" />
                 <element signature="e#1519#1884#0" />
               </folding>
             </state>
@@ -62,8 +74,8 @@
       <find>.left-value-part</find>
       <find>Capac</find>
       <find>right-handed-label</find>
-      <find>.down-part-right</find>
       <find>App-header</find>
+      <find>.down-part-right</find>
       <find>downico</find>
     </findStrings>
   </component>
@@ -130,7 +142,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579433637991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579434558456" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -178,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579261294804</updated>
-      <workItem from="1579261296115" duration="16325000" />
+      <workItem from="1579261296115" duration="17167000" />
     </task>
     <task id="LOCAL-00001" summary="Add additional types of component">
       <created>1579393793890</created>
@@ -187,11 +199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579393793890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upp smart component">
+      <created>1579433656084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579433656085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16325000" />
+    <option name="totallyTimeSpent" value="17167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
@@ -202,12 +221,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30337077" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30337077" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -262,7 +281,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add additional types of component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional types of component" />
+    <MESSAGE value="Upp smart component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upp smart component" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/smart-chart/index.js</url>
+          <line>24</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../CP2.0%20Survey%20Module/WebApp/ClientApp/package.json">
@@ -314,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -328,10 +353,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#275#556#0" />
+            <element signature="e#620#628#0" />
+            <element signature="e#574#846#0" />
+            <element signature="e#954#962#0" />
+            <element signature="e#1325#1333#0" />
+            <element signature="e#1345#1353#0" />
+            <element signature="e#1408#1416#0" />
+            <element signature="e#1462#1470#0" />
+            <element signature="e#1635#1643#0" />
+            <element signature="e#1371#1379#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="340">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#!!block;n#About#0" />
@@ -342,11 +386,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="281">
+          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1094#1503#0" />
+            <element signature="e#698#1413#0" />
             <element signature="e#1519#1884#0" />
           </folding>
         </state>

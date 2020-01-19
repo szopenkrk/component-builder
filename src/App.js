@@ -52,12 +52,12 @@ function Home() {
               valueRight={'15'}
           />
           <SmartChart
-              type={'labelValue'}
-              mainLabel={'capacity'}
-              labelLeft={'TEST1'}
-              leftValue={'54'}
-              labelRight={'Test2'}
-              valueRight={'15'}
+              type={'faces'}
+              mainLabel={'sentiment analisis'}
+              labelLeft={'Reviews site'}
+              valueLeft={'+50'}
+              labelRight={'Private Surveys'}
+              valueRight={'0'}
           />
           <SmartChart
               type={'labelValue'}
