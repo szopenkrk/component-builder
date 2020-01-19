@@ -4,8 +4,6 @@
     <list default="true" id="ff0c8c21-2dc0-4a02-9425-1f86da52a1f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/smart-chart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smart-chart/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/smart-chart/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smart-chart/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2205">
@@ -94,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            <state relative-caret-position="256">
+              <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#!!block;n#About#0" />
@@ -147,16 +145,16 @@
         <option value="$PROJECT_DIR$/src/components/benchmark/index.js" />
         <option value="$PROJECT_DIR$/src/components/benchmark/style.css" />
         <option value="$PROJECT_DIR$/src/components/smart-chart/style.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/smart-chart/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="23" />
-    <option name="width" value="1441" />
-    <option name="height" value="821" />
+    <option name="x" value="26" />
+    <option name="y" value="30" />
+    <option name="width" value="1440" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579472852485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579474892255" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -267,7 +265,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579261294804</updated>
-      <workItem from="1579261296115" duration="37603000" />
+      <workItem from="1579261296115" duration="38153000" />
     </task>
     <task id="LOCAL-00001" summary="Add additional types of component">
       <created>1579393793890</created>
@@ -332,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579466624805</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="polishing">
+      <created>1579472872235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579472872236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37603000" />
+    <option name="totallyTimeSpent" value="38153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="6" />
@@ -414,7 +419,8 @@
     <MESSAGE value="Add updates" />
     <MESSAGE value="Upp feedback container" />
     <MESSAGE value="Add benchmark component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add benchmark component" />
+    <MESSAGE value="polishing" />
+    <option name="LAST_COMMIT_MESSAGE" value="polishing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,18 +518,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/images/star.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#About#0" />
-            <element signature="n#!!block;n#Dashboard#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2205">
@@ -531,6 +525,18 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#SmartChart#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#About#0" />
+            <element signature="n#!!block;n#Dashboard#0" />
           </folding>
         </state>
       </provider>
