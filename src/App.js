@@ -60,12 +60,11 @@ function Home() {
               valueRight={'0'}
           />
           <SmartChart
-              type={'labelValue'}
-              mainLabel={'capacity'}
-              labelLeft={'TEST1'}
-              leftValue={'54'}
-              labelRight={'Test2'}
-              valueRight={'15'}
+              type={'charts'}
+              mainLabel={'NPS SCORE'}
+              mainValue={'FROM TARGET'}
+              valueLeft={'+32'}
+              valueRight={'+1.2%'}
           />
           <SmartChart
               type={'labelValue'}

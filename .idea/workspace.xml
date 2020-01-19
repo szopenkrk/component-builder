@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0c8c21-2dc0-4a02-9425-1f86da52a1f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/smart-chart/images/green-face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/smart-chart/images/orange-face.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/smart-chart/images/star.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/smart-chart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smart-chart/index.js" afterDir="false" />
@@ -19,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="212">
+              <caret line="57" column="30" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#!!block;n#About#0" />
@@ -30,14 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="260">
+              <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
               <folding>
-                <element signature="e#275#556#0" />
-                <element signature="e#620#628#0" />
                 <element signature="e#574#846#0" />
                 <element signature="e#954#962#0" />
                 <element signature="e#1325#1333#0" />
@@ -51,15 +52,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+            <state relative-caret-position="210">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#698#1413#0" />
-                <element signature="e#1519#1884#0" />
+                <element signature="n#!!block;n#constructor#0;n#SmartChart#0" />
               </folding>
             </state>
           </provider>
@@ -77,6 +77,8 @@
       <find>App-header</find>
       <find>.down-part-right</find>
       <find>downico</find>
+      <find>right-handed-red</find>
+      <find>.left-handed-label</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,16 +92,17 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/feedback-container/index.js" />
         <option value="$PROJECT_DIR$/src/components/feedback-container/style.css" />
-        <option value="$PROJECT_DIR$/src/components/smart-chart/style.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/smart-chart/index.js" />
+        <option value="$PROJECT_DIR$/src/components/smart-chart/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="98" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,6 +134,14 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="smart-chart" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="component-builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="component-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-chart" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,11 +153,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579434558456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579439586920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/smart-chart/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/feedback-container" />
     </key>
@@ -190,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579261294804</updated>
-      <workItem from="1579261296115" duration="17167000" />
+      <workItem from="1579261296115" duration="21455000" />
     </task>
     <task id="LOCAL-00001" summary="Add additional types of component">
       <created>1579393793890</created>
@@ -206,14 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579433656085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="faces 2">
+      <created>1579434575627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579434575628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17167000" />
+    <option name="totallyTimeSpent" value="21455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <frame x="39" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -226,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30337077" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29589042" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -282,14 +303,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add additional types of component" />
     <MESSAGE value="Upp smart component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upp smart component" />
+    <MESSAGE value="faces 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="faces 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/smart-chart/index.js</url>
-          <line>24</line>
+          <line>23</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -353,29 +375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#275#556#0" />
-            <element signature="e#620#628#0" />
-            <element signature="e#574#846#0" />
-            <element signature="e#954#962#0" />
-            <element signature="e#1325#1333#0" />
-            <element signature="e#1345#1353#0" />
-            <element signature="e#1408#1416#0" />
-            <element signature="e#1462#1470#0" />
-            <element signature="e#1635#1643#0" />
-            <element signature="e#1371#1379#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="212">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#!!block;n#About#0" />
@@ -386,12 +389,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#698#1413#0" />
-            <element signature="e#1519#1884#0" />
+            <element signature="n#!!block;n#constructor#0;n#SmartChart#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+          <folding>
+            <element signature="e#574#846#0" />
+            <element signature="e#954#962#0" />
+            <element signature="e#1325#1333#0" />
+            <element signature="e#1345#1353#0" />
+            <element signature="e#1408#1416#0" />
+            <element signature="e#1462#1470#0" />
+            <element signature="e#1635#1643#0" />
+            <element signature="e#1371#1379#0" />
           </folding>
         </state>
       </provider>

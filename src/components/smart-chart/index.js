@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './style.css';
-// import upicon from './logo.png';
 // import downIcon from '../images/down.png';
 
 
@@ -17,7 +16,7 @@ class SmartChart extends Component {
                 <div className="left-handed-label">
                     {this.props.mainLabel}
                 </div>
-                <div className="right-handed-label">
+                <div className={`right-handed-label ${!isNaN(parseFloat(this.props.mainValue)) ? "right-handed-red" : "from-target"}`}>
                     {this.props.mainValue}
                 </div>
             </div>
@@ -25,7 +24,6 @@ class SmartChart extends Component {
                 <div className="value-container">
                     <div className={`down-part-left position-left-down-label`}>
                         {this.props.labelLeft}
-
                     </div>
                     <div className={`down-part-right position-right-down-label`}>
                         {this.props.labelRight}
@@ -66,16 +64,28 @@ class SmartChart extends Component {
                 </div>
             }
             {this.props.type == 'charts' &&
-            <div className="value-container">
-                {this.props.leftValue}
-                <div className="left-value-part">
-                    {this.props.labelLeft}
+                <div className="value-container">
+                    <div className={`down-part-left position-left-down-label`}>
+                        {this.props.labelLeft}
+
+                    </div>
+                    <div className={`down-part-right position-right-down-label`}>
+                        {this.props.labelRight}
+                        <div className={'rating-red'}>
+                            {this.props.valueRight}
+                        </div>
+
+                    </div>
+                    <div className="value-container">
+                        <div className={`down-part-left position-left-down-label bigger-value`}>
+                            {this.props.valueLeft}
+
+                        </div>
+                        <div className={`down-part-right position-right-down-label position-only-value`}>
+
+                        </div>
+                    </div>
                 </div>
-                {this.props.labelRight}
-                <div className="right-value-part">
-                    {this.props.valueRight}
-                </div>
-            </div>
             }
         </div>
         );
