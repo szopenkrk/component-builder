@@ -15,13 +15,13 @@ class FeedbackContainer extends Component {
         <div className="feedback-container">
             <div className="grid">
                 <div className="box box1">
-                    <div>one</div>
+                    <div className='label'>NET PROMOTER SCORE DETAILS</div>
                 </div>
                 <div className="box box2">
-                    <div>two</div>
+                    <div className='label'>ALL CONSUMERS</div>
                 </div>
                 <div className="box box4">
-                    <div>four</div>
+                    <div className='label'>FEEDBACK</div>
                 </div>
             </div>
         </div>
