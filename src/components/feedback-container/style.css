@@ -33,6 +33,7 @@
 
 .grid > div:last-child {
     display: flex;
+    height: auto;
     margin-top: 0px;
     flex-basis: calc(100% - 22px);
     justify-content: center;
@@ -94,6 +95,18 @@
     color: #a3a3a3;
 
 }
-.feedback-line {
-    flex: 1;
+
+.feedback-wrapper {
+    margin-left: 21px;
+    display: grid;
+}
+.feedback-line{
+    margin-top:40px;
+    width: 100%;
+}
+
+.feedback-wrapper > .line {
+    display: flex;
+    flex-basis: calc(100% - 14px);
+    flex-direction: row;
 }
