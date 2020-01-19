@@ -1,5 +1,7 @@
 .container {
-    width: 306px;
+    float: left;
+    flex-grow: 1;
+    width: 33%;
     height: 100px;
     object-fit: contain;
     background-color: white;

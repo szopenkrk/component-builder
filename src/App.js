@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import FilterMenu from "./components/filters-menu";
 import SmartChart from './components/smart-chart';
+import FeedbackContainer from './components/feedback-container';
 
 export default function App() {
   return (
@@ -41,7 +42,29 @@ function Home() {
           Header
         </div>
         <div className="App-dashboard">
-          <SmartChart />
+          <SmartChart
+              type={'labelValue'}
+              label={'Sentiment Analizis'}
+              value={'+54'}
+          />
+          <SmartChart
+              type={'labelValue'}
+              mainLabel={'capacity'}
+              labelLeft={'TEST1'}
+              leftValue={'54'}
+              labelRight={'Test2'}
+              valueRight={'15'}
+          />
+          <SmartChart
+              type={'labelValue'}
+              label={'Rating'}
+              value={'+54'}
+          />
+          <SmartChart type={'labelValue'} label={'NPS SCOPE'} value={'+54'}/>
+          <SmartChart type={'labelValue'} label={'CER SCOPE'} value={'+54'}/>
+          <SmartChart type={'labelValue'} label={'SURVEYS'} value={'+54'}/>
+
+          <FeedbackContainer />
         </div>
       </div>
   );

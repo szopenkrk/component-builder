@@ -10,7 +10,10 @@
 }
 
 .App-dashboard {
-  margin: 30px;
+  display: flex;
+  width: 67%;
+  flex-wrap: wrap;
+  padding: 30px;
   float: left;
   height: auto;
   background-color: #fafafa;

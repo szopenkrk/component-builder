@@ -5,9 +5,7 @@ import './style.css';
 class SmartChart extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            isOn: true
-        };
+        this.state = {};
     }
 
     render() {
@@ -15,20 +13,48 @@ class SmartChart extends Component {
         <div className="container">
             <div className="label-container">
                 <div className="left-handed-label">
-                    Capacity
+                    {this.props.mainLabel}
                 </div>
                 <div className="right-handed-label">
                     From Target
                 </div>
             </div>
-            <div className="value-container">
-                <div className="left-value-part">
-                    +32
+            {this.props.type == 'labelValue' &&
+                <div className="value-container">
+                        {this.props.leftValue}
+                    <div className="left-value-part">
+                        {this.props.labelLeft}
+                    </div>
+                        {this.props.labelRight}
+                    <div className="right-value-part">
+                        {this.props.valueRight}
+                    </div>
                 </div>
+            }
+            {this.props.type == 'faces' &&
+            <div className="value-container">
+                {this.props.leftValue}
+                <div className="left-value-part">
+                    {this.props.labelLeft}
+                </div>
+                {this.props.labelRight}
                 <div className="right-value-part">
-                    +32
+                    {this.props.valueRight}
                 </div>
             </div>
+            }
+            {this.props.type == 'faces' &&
+            <div className="value-container">
+                {this.props.leftValue}
+                <div className="left-value-part">
+                    {this.props.labelLeft}
+                </div>
+                {this.props.labelRight}
+                <div className="right-value-part">
+                    {this.props.valueRight}
+                </div>
+            </div>
+            }
         </div>
         );
     };
