@@ -3,7 +3,7 @@
     margin-top: 31px;
     float: left;
     flex-grow: 1;
-    width: 65%;
+    width: 100%;
     height: 500px;
     object-fit: contain;
     background-color: white;
@@ -14,7 +14,7 @@
 }
 
 .grid {
-    min-height: 100%;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -45,10 +45,13 @@
     flex-direction: row;
 }
 
-.box {}
+.box {
+    height:-moz-fit-content;
+    height:-webkit-fit-content;
+    height:fit-content;
+}
 .box1 {}
 .box2 {}
-.box3 {}
 .box4 {}
 
 .box > .label {
