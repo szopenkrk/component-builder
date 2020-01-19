@@ -13,7 +13,17 @@ class FeedbackContainer extends Component {
     render() {
         return (
         <div className="feedback-container">
-            Feedback container
+            <div className="grid">
+                <div className="box box1">
+                    <div>one</div>
+                </div>
+                <div className="box box2">
+                    <div>two</div>
+                </div>
+                <div className="box box4">
+                    <div>four</div>
+                </div>
+            </div>
         </div>
         );
     };

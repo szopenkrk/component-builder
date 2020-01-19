@@ -82,7 +82,9 @@ class SmartChart extends Component {
 
                         </div>
                         <div className={`down-part-right position-right-down-label position-only-value`}>
-
+                            <div className={'small-chart'}>
+                                Chart
+                            </div>
                         </div>
                     </div>
                 </div>

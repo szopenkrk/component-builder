@@ -127,4 +127,9 @@
     color: #ffffff;
     font-size: 14px;
     padding: 3px;
+    margin-top:-8px;
+}
+.small-chart {
+    width: 83px;
+    height: 12px;
 }
