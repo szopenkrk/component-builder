@@ -43,9 +43,13 @@ function Home() {
         </div>
         <div className="App-dashboard">
           <SmartChart
-              type={'labelValue'}
-              label={'Sentiment Analizis'}
-              value={'+54'}
+              type={'capacity'}
+              mainLabel={'capacity'}
+              mainValue={'-1,2%'}
+              labelLeft={'Residence'}
+              valueLeft={'54'}
+              labelRight={'Beds Available'}
+              valueRight={'15'}
           />
           <SmartChart
               type={'labelValue'}
@@ -57,12 +61,36 @@ function Home() {
           />
           <SmartChart
               type={'labelValue'}
-              label={'Rating'}
-              value={'+54'}
+              mainLabel={'capacity'}
+              labelLeft={'TEST1'}
+              leftValue={'54'}
+              labelRight={'Test2'}
+              valueRight={'15'}
           />
-          <SmartChart type={'labelValue'} label={'NPS SCOPE'} value={'+54'}/>
-          <SmartChart type={'labelValue'} label={'CER SCOPE'} value={'+54'}/>
-          <SmartChart type={'labelValue'} label={'SURVEYS'} value={'+54'}/>
+          <SmartChart
+              type={'labelValue'}
+              mainLabel={'capacity'}
+              labelLeft={'TEST1'}
+              leftValue={'54'}
+              labelRight={'Test2'}
+              valueRight={'15'}
+          />
+          <SmartChart
+              type={'labelValue'}
+              mainLabel={'capacity'}
+              labelLeft={'TEST1'}
+              leftValue={'54'}
+              labelRight={'Test2'}
+              valueRight={'15'}
+          />
+          <SmartChart
+              type={'labelValue'}
+              mainLabel={'capacity'}
+              labelLeft={'TEST1'}
+              leftValue={'54'}
+              labelRight={'Test2'}
+              valueRight={'15'}
+          />
 
           <FeedbackContainer />
         </div>

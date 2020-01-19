@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0c8c21-2dc0-4a02-9425-1f86da52a1f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/feedback-container/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/feedback-container/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/smart-chart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smart-chart/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/smart-chart/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smart-chart/style.css" afterDir="false" />
@@ -20,19 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="160">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#!!block;n#About#0" />
@@ -42,13 +30,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="181">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#1094#1503#0" />
+                <element signature="e#1519#1884#0" />
               </folding>
             </state>
           </provider>
@@ -60,7 +59,12 @@
     <findStrings>
       <find>typeahead</find>
       <find>.App-dashboard</find>
+      <find>.left-value-part</find>
+      <find>Capac</find>
+      <find>right-handed-label</find>
+      <find>.down-part-right</find>
       <find>App-header</find>
+      <find>downico</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,10 +75,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/filters-menu/index.js" />
         <option value="$PROJECT_DIR$/src/components/filters-menu/style.css" />
-        <option value="$PROJECT_DIR$/src/components/smart-chart/style.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/feedback-container/index.js" />
         <option value="$PROJECT_DIR$/src/components/feedback-container/style.css" />
+        <option value="$PROJECT_DIR$/src/components/smart-chart/style.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/smart-chart/index.js" />
       </list>
@@ -126,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579392222689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579433637991" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -174,27 +178,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579261294804</updated>
-      <workItem from="1579261296115" duration="10881000" />
+      <workItem from="1579261296115" duration="16325000" />
     </task>
+    <task id="LOCAL-00001" summary="Add additional types of component">
+      <created>1579393793890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579393793890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10881000" />
+    <option name="totallyTimeSpent" value="16325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.30477527" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30337077" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -247,6 +260,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add additional types of component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add additional types of component" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../CP2.0%20Survey%20Module/WebApp/ClientApp/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -259,13 +276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -304,6 +314,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -313,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="160">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#!!block;n#About#0" />
@@ -325,10 +342,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="181">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#1094#1503#0" />
+            <element signature="e#1519#1884#0" />
           </folding>
         </state>
       </provider>
