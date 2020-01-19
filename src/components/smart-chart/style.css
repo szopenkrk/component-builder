@@ -9,7 +9,6 @@
     box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.03);
     background-color: #ffffff;
 }
-
 .left-handed-label {
     margin-left:21px;
     margin-top: 16px;
@@ -76,9 +75,7 @@
     flex-grow: 1;
     float: left;
 }
-.icon-up {
-
-}
+.icon-up {}
 .down-part-left{
     width: auto;
     float: left;
@@ -102,7 +99,6 @@
 .down-part-right {
     width: auto;
     float: right;
-
 }
 .bigger-value {
     height: 35px;
@@ -116,11 +112,10 @@
     color: #333333;
     margin-left: 20px;
     margin-top: -16px;
-
 }
 .rating-red {
     width: 56px;
-    height: 22px;
+    height: 17px;
     object-fit: contain;
     background-color: #f22735;
     border-radius: 20px;
@@ -132,4 +127,6 @@
 .small-chart {
     width: 83px;
     height: 12px;
+    float: right;
+    margin-right: -90px;
 }

@@ -147,7 +147,9 @@ class SmartChart extends Component {
                     <div className="value-container">
                         <div className={`down-part-left position-left-down-label bigger-value`}>
                             {this.props.valueLeft}
-
+                            {this.props.addStar &&
+                                <img src='./images/star.svg'/>
+                            }
                         </div>
                         <div className={`down-part-right position-right-down-label position-only-value`}>
                             <div className={'small-chart'}>
