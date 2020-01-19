@@ -64,3 +64,36 @@
     letter-spacing: normal;
     color: #6b6b6b;
 }
+
+.feedback-value {
+    margin-left: 20px;
+    margin-top: 70px;
+    width: 84px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.feedback-legend {
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #a3a3a3;
+
+}
+.feedback-line {
+    flex: 1;
+}
