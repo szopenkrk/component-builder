@@ -10,6 +10,7 @@ import FilterMenu from "./components/filters-menu";
 import SmartChart from './components/smart-chart';
 import FeedbackContainer from './components/feedback-container';
 import Benchmark from "./components/benchmark";
+import Donut from "./components/donut";
 
 export default function App() {
     return (
@@ -92,6 +93,7 @@ function Home() {
 
                 <FeedbackContainer/>
                 <Benchmark/>
+                <Donut />
             </div>
         </div>
     );

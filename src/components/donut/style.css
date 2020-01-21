@@ -1,0 +1,17 @@
+.circle-container {
+    float: left;
+    display: flex;
+    flex-basis: calc(33.33% - 14px);
+    flex-direction: column;
+    width: 30%;
+    margin-top: 15px;
+    height: 360px;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+}
+.circle-label {
+    margin-left: 21px;
+    margin-top: 16px;
+}
