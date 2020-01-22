@@ -11,6 +11,7 @@ import SmartChart from './components/smart-chart';
 import FeedbackContainer from './components/feedback-container';
 import Benchmark from "./components/benchmark";
 import Donut from "./components/donut";
+import ResultsByQuestions from "./components/results-by-questions";
 
 export default function App() {
     return (
@@ -94,6 +95,7 @@ function Home() {
                 <FeedbackContainer/>
                 <Benchmark/>
                 <Donut />
+                <ResultsByQuestions />
             </div>
         </div>
     );
