@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0c8c21-2dc0-4a02-9425-1f86da52a1f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/results-by-questions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/results-by-questions/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/small-chart/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/small-chart/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/results-by-questions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/results-by-questions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/results-by-questions/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/results-by-questions/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,51 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/feedback-container/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="47" />
+            <state relative-caret-position="190">
+              <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#395#803#0" />
-                <element signature="e#824#944#0" />
-                <element signature="e#965#6353#0" />
-                <element signature="e#925#1080#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-chartjs-2/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="401">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -93,6 +62,8 @@
       <find>.grid &gt; div {</find>
       <find>.results-by-question &gt; div &gt; div.box &gt; div.label</find>
       <find>ChartType</find>
+      <find>.box &gt; .label {</find>
+      <find>centerContent</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/components/feedback-container</dir>
@@ -118,12 +89,12 @@
         <option value="$PROJECT_DIR$/src/components/benchmark/index.js" />
         <option value="$PROJECT_DIR$/src/components/small-chart/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/results-by-questions/index.js" />
         <option value="$PROJECT_DIR$/src/components/results-by-questions/style.css" />
+        <option value="$PROJECT_DIR$/src/components/results-by-questions/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
@@ -190,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579714858273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579730928894" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -252,7 +223,7 @@
       <updated>1579261294804</updated>
       <workItem from="1579261296115" duration="39937000" />
       <workItem from="1579614917678" duration="17000" />
-      <workItem from="1579618148989" duration="7631000" />
+      <workItem from="1579618148989" duration="12359000" />
     </task>
     <task id="LOCAL-00001" summary="Add additional types of component">
       <created>1579393793890</created>
@@ -352,17 +323,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579647982464</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add new component">
+      <created>1579714882146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579714882146</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Params for bar chart">
+      <created>1579722672663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579722672665</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47585000" />
+    <option name="totallyTimeSpent" value="52313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,7 +365,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22576177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22829132" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,7 +425,9 @@
     <MESSAGE value="polishing 3" />
     <MESSAGE value="add donought" />
     <MESSAGE value="add bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bar" />
+    <MESSAGE value="Add new component" />
+    <MESSAGE value="Params for bar chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Params for bar chart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,16 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-chartjs-2/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/feedback-container/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -597,24 +574,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-chartjs-2/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="47" />
+        <state relative-caret-position="234">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="7" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#395#803#0" />
-            <element signature="e#824#944#0" />
-            <element signature="e#965#6353#0" />
-            <element signature="e#925#1080#0" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#327#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="401">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
