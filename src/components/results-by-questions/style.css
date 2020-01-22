@@ -50,8 +50,8 @@
 
 .results-by-question > .box {
     height: 200px;
-    height:-moz-fit-content;
-    height:-webkit-fit-content;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
     height:fit-content;
 }
 .results-by-question > div > div.box > div.label {

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ff0c8c21-2dc0-4a02-9425-1f86da52a1f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/benchmark/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/benchmark/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/donut/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donut/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/donut/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donut/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/results-by-questions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/results-by-questions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/results-by-questions/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/results-by-questions/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+            <state relative-caret-position="459">
+              <caret line="41" column="59" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="41" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -29,8 +33,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+            <state relative-caret-position="117">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/benchmark/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-78">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/donut/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/donut/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -84,12 +121,13 @@
         <option value="$PROJECT_DIR$/src/components/feedback-container/style.css" />
         <option value="$PROJECT_DIR$/src/components/circle-chart/style.css" />
         <option value="$PROJECT_DIR$/src/components/circle-chart/index.js" />
-        <option value="$PROJECT_DIR$/src/components/donut/index.js" />
-        <option value="$PROJECT_DIR$/src/components/benchmark/index.js" />
         <option value="$PROJECT_DIR$/src/components/small-chart/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/results-by-questions/style.css" />
         <option value="$PROJECT_DIR$/src/components/results-by-questions/index.js" />
+        <option value="$PROJECT_DIR$/src/components/benchmark/index.js" />
+        <option value="$PROJECT_DIR$/src/components/donut/style.css" />
+        <option value="$PROJECT_DIR$/src/components/donut/index.js" />
       </list>
     </option>
   </component>
@@ -147,6 +185,13 @@
               <item name="component-builder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="filters-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="component-builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="component-builder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="results-by-questions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -160,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579731035392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579732402696" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -222,7 +267,7 @@
       <updated>1579261294804</updated>
       <workItem from="1579261296115" duration="39937000" />
       <workItem from="1579614917678" duration="17000" />
-      <workItem from="1579618148989" duration="12467000" />
+      <workItem from="1579618148989" duration="13714000" />
     </task>
     <task id="LOCAL-00001" summary="Add additional types of component">
       <created>1579393793890</created>
@@ -343,14 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579730985686</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Upp label">
+      <created>1579731050809</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579731050809</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52421000" />
+    <option name="totallyTimeSpent" value="53668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="374" width="1440" height="806" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
@@ -434,7 +486,8 @@
     <MESSAGE value="Add new component" />
     <MESSAGE value="Params for bar chart" />
     <MESSAGE value="upp" />
-    <option name="LAST_COMMIT_MESSAGE" value="upp" />
+    <MESSAGE value="Upp label" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upp label" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/donut/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/smart-chart/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -551,26 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/benchmark/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/donut/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/feedback-container/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -592,19 +618,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/style.css">
+    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="459">
+          <caret line="41" column="59" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/benchmark/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        <state relative-caret-position="-78">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/results-by-questions/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/donut/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/donut/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

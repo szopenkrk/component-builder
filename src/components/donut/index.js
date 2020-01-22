@@ -34,7 +34,9 @@ class Donut extends Component {
         return (
             <div className="circle-container">
                 <div className={'circle-label'}>BENCHMARK</div>
-                <Doughnut data={data} />
+                <div className={'center'}>
+                    <Doughnut data={data} />
+                </div>
             </div>
 
         );
