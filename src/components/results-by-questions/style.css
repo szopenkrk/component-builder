@@ -57,9 +57,6 @@
     width: 100%;
 
 }
-.results-by-question > .box > .label {
-
-}
 
 .box1 {}
 .box2 {}
@@ -67,7 +64,7 @@
 
 .results-by-question > .box > .label {
     margin-top: 16px;
-    margin-left: 20px;
+    margin-left: 25px;
     width: 292px;
     height: 21px;
     font-family: Roboto;
@@ -75,9 +72,17 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.4;
+    line-height: 1.87;
     letter-spacing: normal;
-    color: #6b6b6b;
+    color: #6a686d;
+}
+
+.scroll-horizental-histo {
+    width: 2px !important;
+}
+
+.bar-position {
+    margin-left: 25px;
 }
 
 
