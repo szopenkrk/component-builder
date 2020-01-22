@@ -72,7 +72,7 @@ class ResultsByQuestions extends Component {
         }
         return (
             <div className="results-by-question">
-                <div className='label'>FEEDBACK</div>
+                <div className='label'>CUSTOMER SATISFACTION</div>
                 <div className="grid">
                     <div className="box box1">
                         <div className='label'>How would you qualify the quality for each meal?</div>
