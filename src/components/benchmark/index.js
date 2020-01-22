@@ -34,12 +34,14 @@ class Benchmark extends Component {
         return (
             <div className="benchmark-container">
                 <div className={'benchmark-label'}>BENCHMARK</div>
-                <Bar
-                    data={data}
-                    width={100}
-                    height={50}
-                    options={barOption}
-                />
+                <div className={'benchmark-center'}>
+                    <Bar
+                        data={data}
+                        height={"280px"}
+                        width={'280px'}
+                        options={barOption}
+                    />
+                </div>
             </div>
         );
     };

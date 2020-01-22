@@ -55,7 +55,7 @@ class ResultsByQuestions extends Component {
             layout: {padding: {left: 10, right: 10, top: 0, bottom: 0}},
             scales: {
                 xAxes: [{ticks: {autoSkip: true}, barPercentage: 0.1}],
-                yAxes: [{ticks: {beginAtZero: true, max: 100, }}]
+                yAxes: [{ticks: {beginAtZero: true, max: 100,}}]
             }
         }
 
